@@ -1,15 +1,3 @@
-# A Staff of Local Agents — Building an Autonomous Residence on Apple Silicon
-
-I spend my evenings and weekends turning a pair of Apple Silicon Macs (an M1 edge node and a headless M3 Pro host) into a local-first operating system for my flat—staffed by a small roster of specialist local agents.
-
-No cloud cameras. No SaaS subscriptions holding my light switches hostage. No black-box "smart home" apps that rot when a startup pivots. Every frame of video, every local VLM inference pass, every router packet audit, and every browser automation tab runs on bare metal in my cupboard over a zero-trust LAN.
-
-I treat this profile as a **living engineering notebook**. Because these systems run my actual residence, the raw engine implementations live in private `*-engine` repositories—while the **commit timelines, architectural diagrams, failure post-mortems, and build logs** are published here in the open across the four public repos below.
-
----
-
-## The Roster & The Residence
-
 | Repository | Role | Subsystem & Footprint | Commits |
 | :--- | :--- | :--- | :---: |
 | **[`astro`](https://github.com/narkFerrret/astro)** | **The Watchdog · Security & Vision** | Python · FastAPI · YOLO + CoreML · Qwen3-VL (Ollama) · Hue v2 SSE · 3×1TB Rotating SSDs | `54` |
