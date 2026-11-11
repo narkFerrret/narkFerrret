@@ -12,10 +12,10 @@ I treat this profile as a **living engineering notebook**. Because these systems
 
 | Repository | Role | Subsystem & Footprint | Commits |
 | :--- | :--- | :--- | :---: |
-| **[`astro`](./astro)** | **The Watchdog · Security & Vision** | Python · FastAPI · YOLO + CoreML · Qwen3-VL (Ollama) · Hue v2 SSE · 3×1TB Rotating SSDs | `54` |
-| **[`remy`](./remy)** | **The Chef · Kitchen & Retail Desk** | Node.js (stdlib) · Persistent Chromium CDP · Pescatarian Gate · SQLite Approval Ledger | `36` |
-| **[`jeeves`](./jeeves)** | **The Butler · 2D Observatory & Comms** | Node.js · 190px Single-Rail Hub · Mail.app JXA · 365d Parcel Tracker · WhatsApp Shot Clock | `32` |
-| **[`residence`](./residence)** | **The Building · 3D Spatial Twin** | Three.js / WebGL · 3.8fps NDJSON Frame Mux · HTTP/2 gRPC Starlink · 206 Byte-Range Proxy | `19` |
+| **[`astro`](https://github.com/narkFerrret/astro)** | **The Watchdog · Security & Vision** | Python · FastAPI · YOLO + CoreML · Qwen3-VL (Ollama) · Hue v2 SSE · 3×1TB Rotating SSDs | `54` |
+| **[`remy`](https://github.com/narkFerrret/remy)** | **The Chef · Kitchen & Retail Desk** | Node.js (stdlib) · Persistent Chromium CDP · Pescatarian Gate · SQLite Approval Ledger | `36` |
+| **[`jeeves`](https://github.com/narkFerrret/jeeves)** | **The Butler · 2D Observatory & Comms** | Node.js · 190px Single-Rail Hub · Mail.app JXA · 365d Parcel Tracker · WhatsApp Shot Clock | `32` |
+| **[`residence`](https://github.com/narkFerrret/residence)** | **The Building · 3D Spatial Twin** | Three.js / WebGL · 3.8fps NDJSON Frame Mux · HTTP/2 gRPC Starlink · 206 Byte-Range Proxy | `19` |
 
 *(Each public repository above is paired with its private full-source counterpart: `astro-engine`, `remy-engine`, `jeeves-engine`, and `residence-engine`.)*
 
@@ -82,3 +82,13 @@ Recording four H.264 streams at ~93 GiB/day across three external 1 TB USB-C SSD
 1. **Reported ≠ Verified.** A reachable HTTP 200 health endpoint does not mean cameras are delivering fresh frames, the Hue Bridge SSE stream is live, or the archive SSD is mounted. Every layer is probed and badged independently.
 2. **Hard Financial & Privacy Boundaries.** `remy` can search six platforms in parallel, filter out meat/poultry via a deterministic pescatarian ruleset, and stage a basket to checkout—but it cannot spend a penny without a recorded human approval token (`apr_*`) and a full-page verification screenshot.
 3. **Zero-Dependency Longevity.** `jeeves` and `remy` run on the Node.js standard library (`node:http`, `node:sqlite`, `node:crypto`) plus vanilla HTML/CSS/JS. No bundler, no React hydration waterfall, no `node_modules` rot.
+
+---
+
+## Other Local-First & Privacy Projects
+
+| Repository | Focus |
+| :--- | :--- |
+| **[`noor`](https://github.com/narkFerrret/noor)** | Android-based, agent-focused LightOS environment for the Light Phone III. |
+| **[`project-nomad`](https://github.com/narkFerrret/project-nomad)** | Self-contained offline computer packed with local tools, knowledge bases, and on-device AI. |
+| **[`dpsm`](https://github.com/narkFerrret/dpsm)** | Practical, plain-language operational security guide for protecting sources and communications. |
