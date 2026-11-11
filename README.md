@@ -1,3 +1,4 @@
+### AI Generated 🤮
 | Repository | Role | Subsystem & Footprint | Commits |
 | :--- | :--- | :--- | :---: |
 | **[`astro`](https://github.com/narkFerrret/astro)** | **The Watchdog · Security & Vision** | Python · FastAPI · YOLO + CoreML · Qwen3-VL (Ollama) · Hue v2 SSE · 3×1TB Rotating SSDs | `54` |
